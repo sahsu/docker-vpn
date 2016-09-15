@@ -6,7 +6,7 @@
 1. `Common Name (eg: your user, host, or server name) [Easy-RSA CA]:` your server FQDN ( domain name able to reach docker port udp 1194 )
 
 ```
-./run.sh
+FQDN=[YOUR_FQDN] ./run.sh
 ```
 
 1. add client by add-client.sh
