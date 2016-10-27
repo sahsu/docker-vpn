@@ -14,3 +14,13 @@ FQDN=[YOUR_FQDN] ./run.sh
 ```
 ./add-client.sh [client-name]
 ```
+
+2. show all clients
+```
+./list-client.sh
+```
+
+3. delete a client
+```
+./del-client.sh
+```
