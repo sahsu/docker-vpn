@@ -1,0 +1,11 @@
+openvpn-server:
+  restart: "always"
+  image: "kylemanna/openvpn"
+  ports: 
+    -  "1194:1194/udp"
+  volumes:
+   - "ovpn-data:/etc/openvpn"
+  environment:
+   ALLOW: "cidr_allow 0.0.0.0/0"
+  cap_add:
+    - ALL

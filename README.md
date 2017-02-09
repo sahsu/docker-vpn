@@ -6,6 +6,7 @@
 1. `Common Name (eg: your user, host, or server name) [Easy-RSA CA]:` your server FQDN ( domain name able to reach docker port udp 1194 )
 
 ```
+1st run
 FQDN=[YOUR_FQDN] ./run.sh
 ```
 
@@ -24,3 +25,5 @@ FQDN=[YOUR_FQDN] ./run.sh
 ```
 ./del-client.sh
 ```
+4. in reboot
+4. you shouldn't need touch anything docker-compose will automatic run w/ normally
