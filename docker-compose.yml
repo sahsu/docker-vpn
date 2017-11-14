@@ -9,3 +9,16 @@ openvpn-server:
    ALLOW: "cidr_allow 0.0.0.0/0"
   cap_add:
     - ALL
+  privileged: true
+#openvpn-monitor:
+#  restart: "always"
+#  image: "openvpn-monitor"
+##  ports:
+##    - "80"
+#  expose:
+#   - "80"
+#  environment:
+#   HOST: "dockervpn_openvpn-server_1"
+#   PORT: "5555"
+#  links:
+#    - "openvpn-server"
