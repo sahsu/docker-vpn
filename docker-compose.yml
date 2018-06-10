@@ -1,6 +1,6 @@
 openvpn-server:
   restart: "always"
-  image: "kylemanna/openvpn"
+  image: "sahsu/docker-openvpn"
   ports: 
     -  "1194:1194/udp"
   volumes:
